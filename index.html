@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Beg2DFIR | Beginner to DFIR</title>
+  <title>Beg2DFIR</title>
 
   <meta
     name="description"
-    content="Beg2DFIR is a learning path from IT fundamentals toward SOC and DFIR, with retention packs, notes, and simple retro arcade-style study projects."
+    content="Beg2DFIR is a small collection of study packs, notes, and retro learning experiments."
   />
 
   <link rel="stylesheet" href="styles.css" />
@@ -21,7 +21,7 @@
 
       <nav class="nav">
         <a href="#path">Path</a>
-        <a href="#packs">Retention Packs</a>
+        <a href="#packs">Packs</a>
         <a href="#notes">Notes</a>
         <a href="#projects">Projects</a>
       </nav>
@@ -29,24 +29,16 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero compact-hero">
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">Beginner to DFIR</p>
 
-          <h1>Building the foundation before chasing the investigation.</h1>
+          <h1>Cards. Notes. Puzzles. Small games.</h1>
 
-          <p class="hero-text">
-            Beg2DFIR follows a real learning path from IT fundamentals toward SOC
-            and digital forensics. The goal is not to pretend to be an expert.
-            The goal is to build useful study tools, document the climb, and get
-            better section by section.
+          <p class="hero-text short-text">
+            A quiet workbench for beginner tech study.
           </p>
-
-          <div class="button-row">
-            <a class="button primary" href="#packs">View retention packs</a>
-            <a class="button secondary" href="#path">See the path</a>
-          </div>
         </div>
 
         <div class="terminal-card">
@@ -56,61 +48,65 @@
             <span></span>
           </div>
 
-          <pre><code>&gt; current_path
+          <pre><code>&gt; status
+building
+
+&gt; current
 A+ Core 1
 
-&gt; current_goal
-Build the endpoint foundation
+&gt; next
+Mobile Devices pack
 
-&gt; next_output
-Mobile Devices Retention Pack
-
-&gt; rule
-Study. Build. Share. Repeat.</code></pre>
+&gt; output
+cards + puzzles + notes</code></pre>
         </div>
       </div>
     </section>
 
     <section id="path" class="section">
       <div class="container">
-        <p class="eyebrow">Learning Path</p>
-        <h2>The route is simple on purpose.</h2>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Path</p>
+            <h2>Milestones</h2>
+          </div>
+        </div>
 
-        <div class="card-grid">
-          <article class="card active-card">
-            <h3>01. A+ Core 1</h3>
-            <p>
-              Mobile devices, networking, hardware, virtualization/cloud, and
-              hardware/network troubleshooting.
-            </p>
-            <span class="status">Current phase</span>
+        <div class="scroll-row" aria-label="Learning path milestones">
+          <article class="mini-card active-card">
+            <p class="card-kicker">Current</p>
+            <h3>A+ Core 1</h3>
+            <p>Devices, hardware, networks, troubleshooting.</p>
           </article>
 
-          <article class="card">
-            <h3>02. A+ Core 2</h3>
-            <p>
-              Operating systems, security basics, software troubleshooting, and
-              operational procedures.
-            </p>
-            <span class="status muted">Queued</span>
+          <article class="mini-card">
+            <p class="card-kicker">Next</p>
+            <h3>A+ Core 2</h3>
+            <p>Operating systems, security basics, procedures.</p>
           </article>
 
-          <article class="card">
-            <h3>03. Network+</h3>
-            <p>
-              Learning how devices communicate before trying to investigate what
-              went wrong.
-            </p>
-            <span class="status muted">Later</span>
+          <article class="mini-card">
+            <p class="card-kicker">Later</p>
+            <h3>Networks</h3>
+            <p>How devices communicate.</p>
           </article>
 
-          <article class="card">
-            <h3>04. Security+ → SOC</h3>
-            <p>
-              Moving from support foundations into security operations, alerts,
-              evidence, and response.
-            </p>
-            <span class="status muted">Later</span>
+          <article class="mini-card">
+            <p class="card-kicker">Later</p>
+            <h3>Security</h3>
+            <p>Controls, threats, and operations.</p>
+          </article>
+
+          <article class="mini-card">
+            <p class="card-kicker">Later</p>
+            <h3>Signals</h3>
+            <p>Alerts, logs, and evidence.</p>
+          </article>
+
+          <article class="mini-card">
+            <p class="card-kicker">Later</p>
+            <h3>DFIR</h3>
+            <p>Investigation and response.</p>
           </article>
         </div>
       </div>
@@ -118,79 +114,99 @@ Study. Build. Share. Repeat.</code></pre>
 
     <section id="packs" class="section alt-section">
       <div class="container">
-        <p class="eyebrow">Retention Packs</p>
-        <h2>Study tools built from each section.</h2>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Packs</p>
+            <h2>Retention</h2>
+          </div>
 
-        <p class="section-intro">
-          Each pack starts from a hand-built master CSV and turns into flashcards,
-          import files, printable review material, and simple puzzles.
-        </p>
+          <p class="future-note">Search coming later.</p>
+        </div>
 
-        <div class="pack-list">
-          <article class="pack-card">
-            <div>
-              <p class="pack-label">A+ Core 1</p>
-              <h3>Mobile Devices</h3>
-              <p>
-                Flashcards, CSV/TSV files, printable review, crossword, word
-                search, and answer keys.
-              </p>
-            </div>
-
-            <a class="button secondary small" href="#">Coming soon</a>
+        <div class="scroll-row" aria-label="Retention packs">
+          <article class="mini-card active-card">
+            <p class="card-kicker">A+ Core 1</p>
+            <h3>Mobile Devices</h3>
+            <p>Flashcards, CSV/TSV, PDF, crossword, word search.</p>
+            <a class="text-link" href="#">Coming soon →</a>
           </article>
 
-          <article class="pack-card">
-            <div>
-              <p class="pack-label">A+ Core 1</p>
-              <h3>Networking</h3>
-              <p>
-                The next retention pack after Mobile Devices.
-              </p>
-            </div>
+          <article class="mini-card">
+            <p class="card-kicker">A+ Core 1</p>
+            <h3>Networking</h3>
+            <p>Pack not started.</p>
+          </article>
 
-            <a class="button secondary small" href="#">Coming later</a>
+          <article class="mini-card">
+            <p class="card-kicker">A+ Core 1</p>
+            <h3>Hardware</h3>
+            <p>Pack not started.</p>
+          </article>
+
+          <article class="mini-card">
+            <p class="card-kicker">A+ Core 1</p>
+            <h3>Virtualization / Cloud</h3>
+            <p>Pack not started.</p>
+          </article>
+
+          <article class="mini-card">
+            <p class="card-kicker">A+ Core 1</p>
+            <h3>Troubleshooting</h3>
+            <p>Pack not started.</p>
           </article>
         </div>
       </div>
     </section>
 
     <section id="notes" class="section">
-      <div class="container narrow">
-        <p class="eyebrow">Field Notes</p>
-        <h2>The post has to stand on its own.</h2>
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Notes</p>
+            <h2>Field Notes</h2>
+          </div>
+        </div>
 
-        <p>
-          Not every section needs a dramatic story or a fake case. Some parts of
-          the path are just foundation work. The notes here are for explaining
-          why that foundation matters, what each section is teaching me to notice,
-          and how it connects to the larger move from desktop support toward SOC
-          and DFIR.
-        </p>
-
-        <a class="text-link" href="#">First note coming soon →</a>
+        <div class="scroll-row" aria-label="Field notes">
+          <article class="mini-card">
+            <p class="card-kicker">Draft</p>
+            <h3>Before DFIR, Devices</h3>
+            <p>Coming soon.</p>
+          </article>
+        </div>
       </div>
     </section>
 
     <section id="projects" class="section alt-section">
-      <div class="container narrow">
-        <p class="eyebrow">Projects</p>
-        <h2>Simple retro visuals, not fake simulations.</h2>
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Arcade Lab</h2>
+          </div>
+        </div>
 
-        <p>
-          The game projects are simple arcade-style visual companions for the
-          learning journey. The narration carries the meaning. The games keep the
-          visual identity alive without pretending to be full cybersecurity
-          simulations.
-        </p>
+        <div class="scroll-row" aria-label="Projects">
+          <article class="mini-card">
+            <p class="card-kicker">Prototype</p>
+            <h3>Pong / Tennis</h3>
+            <p>Simple visual loop for the intro.</p>
+          </article>
+
+          <article class="mini-card">
+            <p class="card-kicker">Later</p>
+            <h3>Card Objects</h3>
+            <p>Reusable study objects for small games.</p>
+          </article>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-wrap">
-      <p>Beg2DFIR — beginner to DFIR, one section at a time.</p>
-      <p class="footer-small">Built with GitHub Pages.</p>
+      <p>Beg2DFIR</p>
+      <p class="footer-small">Built section by section.</p>
     </div>
   </footer>
 </body>
