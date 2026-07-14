@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Beg2DFIR is a small collection of study packs, notes, and retro learning experiments."
+    content="Beg2DFIR: Beginner to DFIR. Projects, notes, study tools, and learning-path resources."
   />
 
   <link rel="stylesheet" href="styles.css" />
@@ -20,28 +20,42 @@
       <a class="logo" href="index.html">Beg2DFIR</a>
 
       <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="#start">Start Here</a>
         <a href="#path">Path</a>
-        <a href="#packs">Packs</a>
-        <a href="#notes">Notes</a>
-        <a href="#projects">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="packs.html">Packs</a>
+        <a href="puzzles.html">Puzzles</a>
+        <a href="projects.html">Projects</a>
       </nav>
+
+      <a class="button secondary small" href="#" aria-label="Watch on YouTube">
+        Watch on YouTube
+      </a>
     </div>
   </header>
 
   <main>
-    <section class="hero compact-hero">
+    <section class="hero simple-hero">
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">Beginner to DFIR</p>
 
-          <h1>Cards. Notes. Puzzles. Small games.</h1>
+          <h1>Beg2DFIR</h1>
 
-          <p class="hero-text short-text">
-            A quiet workbench for beginner tech study.
+          <p class="hero-tags">
+            Projects · Notes · Study Tools
           </p>
+
+          <div class="button-row">
+            <a class="button primary" href="#start">Start Here</a>
+            <a class="button secondary" href="#" aria-label="Watch on YouTube">
+              Watch on YouTube
+            </a>
+          </div>
         </div>
 
-        <div class="terminal-card">
+        <div class="terminal-card subtle-terminal">
           <div class="terminal-bar">
             <span></span>
             <span></span>
@@ -51,14 +65,37 @@
           <pre><code>&gt; status
 building
 
-&gt; current
-A+ Core 1
-
-&gt; next
-Mobile Devices pack
+&gt; focus
+fundamentals
 
 &gt; output
-cards + puzzles + notes</code></pre>
+posts
+packs
+puzzles
+projects</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="start" class="section alt-section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Start Here</p>
+            <h2>Current focus</h2>
+          </div>
+        </div>
+
+        <div class="simple-panel">
+          <p>
+            Beg2DFIR is where I’m organizing the climb from beginner foundations
+            toward deeper technical work. The site will collect posts, projects,
+            study packs, and puzzles as they are created.
+          </p>
+
+          <p>
+            The first focus is CompTIA A+ foundation work.
+          </p>
         </div>
       </div>
     </section>
@@ -76,137 +113,55 @@ cards + puzzles + notes</code></pre>
           <article class="mini-card active-card">
             <p class="card-kicker">Current</p>
             <h3>A+ Core 1</h3>
-            <p>Devices, hardware, networks, troubleshooting.</p>
           </article>
 
           <article class="mini-card">
             <p class="card-kicker">Next</p>
             <h3>A+ Core 2</h3>
-            <p>Operating systems, security basics, procedures.</p>
           </article>
 
           <article class="mini-card">
             <p class="card-kicker">Later</p>
-            <h3>Networks</h3>
-            <p>How devices communicate.</p>
+            <h3>Network+</h3>
           </article>
 
           <article class="mini-card">
             <p class="card-kicker">Later</p>
-            <h3>Security</h3>
-            <p>Controls, threats, and operations.</p>
-          </article>
-
-          <article class="mini-card">
-            <p class="card-kicker">Later</p>
-            <h3>Signals</h3>
-            <p>Alerts, logs, and evidence.</p>
-          </article>
-
-          <article class="mini-card">
-            <p class="card-kicker">Later</p>
-            <h3>DFIR</h3>
-            <p>Investigation and response.</p>
+            <h3>Security+</h3>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="packs" class="section alt-section">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Packs</p>
-            <h2>Retention</h2>
-          </div>
+    <!--
+      Blog section:
+      Add this when the first 1–4 real posts exist.
+      Until then, keep it hidden from the homepage.
+    -->
 
-          <p class="future-note">Search coming later.</p>
-        </div>
+    <!--
+      Packs section:
+      Add this when the first retention pack exists.
+      It should show 2–4 cards plus a More button to packs.html.
+    -->
 
-        <div class="scroll-row" aria-label="Retention packs">
-          <article class="mini-card active-card">
-            <p class="card-kicker">A+ Core 1</p>
-            <h3>Mobile Devices</h3>
-            <p>Flashcards, CSV/TSV, PDF, crossword, word search.</p>
-            <a class="text-link" href="#">Coming soon →</a>
-          </article>
+    <!--
+      Puzzles section:
+      Add this when the first crossword/word search exists.
+      It should show 2–4 cards plus a More button to puzzles.html.
+    -->
 
-          <article class="mini-card">
-            <p class="card-kicker">A+ Core 1</p>
-            <h3>Networking</h3>
-            <p>Pack not started.</p>
-          </article>
-
-          <article class="mini-card">
-            <p class="card-kicker">A+ Core 1</p>
-            <h3>Hardware</h3>
-            <p>Pack not started.</p>
-          </article>
-
-          <article class="mini-card">
-            <p class="card-kicker">A+ Core 1</p>
-            <h3>Virtualization / Cloud</h3>
-            <p>Pack not started.</p>
-          </article>
-
-          <article class="mini-card">
-            <p class="card-kicker">A+ Core 1</p>
-            <h3>Troubleshooting</h3>
-            <p>Pack not started.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="notes" class="section">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Notes</p>
-            <h2>Field Notes</h2>
-          </div>
-        </div>
-
-        <div class="scroll-row" aria-label="Field notes">
-          <article class="mini-card">
-            <p class="card-kicker">Draft</p>
-            <h3>Before DFIR, Devices</h3>
-            <p>Coming soon.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section alt-section">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Projects</p>
-            <h2>Arcade Lab</h2>
-          </div>
-        </div>
-
-        <div class="scroll-row" aria-label="Projects">
-          <article class="mini-card">
-            <p class="card-kicker">Prototype</p>
-            <h3>Pong / Tennis</h3>
-            <p>Simple visual loop for the intro.</p>
-          </article>
-
-          <article class="mini-card">
-            <p class="card-kicker">Later</p>
-            <h3>Card Objects</h3>
-            <p>Reusable study objects for small games.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+    <!--
+      Projects section:
+      Add this when the first real project exists.
+      It should show 2–4 cards plus a More button to projects.html.
+    -->
   </main>
 
   <footer class="site-footer">
     <div class="container footer-wrap">
       <p>Beg2DFIR</p>
-      <p class="footer-small">Built section by section.</p>
+      <p class="footer-small">Beginner to DFIR</p>
     </div>
   </footer>
 </body>
