@@ -351,6 +351,12 @@ code {
   opacity: 0.75;
 }
 
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
 /* Responsive */
 
 @media (max-width: 900px) {
