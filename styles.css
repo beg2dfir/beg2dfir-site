@@ -356,6 +356,36 @@ code {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 18px;
 }
+.article {
+  max-width: 780px;
+  margin: 0 auto;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: rgba(18, 31, 25, 0.72);
+  box-shadow: var(--shadow);
+  padding: clamp(24px, 5vw, 48px);
+}
+
+.article h1 {
+  margin-bottom: 28px;
+  font-size: clamp(2.8rem, 8vw, 5.4rem);
+}
+
+.article p {
+  margin-bottom: 20px;
+}
+
+.article a {
+  color: var(--green);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+
 
 /* Responsive */
 
