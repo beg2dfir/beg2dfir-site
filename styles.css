@@ -30,6 +30,8 @@ body {
     linear-gradient(180deg, var(--bg-deep) 0%, var(--bg) 45%, var(--bg-deep) 100%);
   line-height: 1.6;
 
+
+
 }
 
 
@@ -63,7 +65,31 @@ body {
   box-shadow: 0px 5px 0px var(--text);
 }
 
+.outer{
+  
+}
+
+
 .hero{
   width: 96%;
   margin: 0 auto;
+}
+
+.welcome{
+  width: 96%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.welcome li{
+  text-align: left;
+}
+
+li:nth-child(even){
+  color: var(--muted);
+}
+
+li:nth-child(odd){
+  color: var(--green);
 }
