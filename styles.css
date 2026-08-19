@@ -137,3 +137,17 @@ img {
 .welcome li:nth-child(odd) {
   color: var(--green);
 }
+
+.card-section{
+  display: flex;
+  flex-wrap: wrap;
+  width: 96%;
+  margin: 0 auto;
+  justify-content: center;
+  
+}
+
+.card{
+  margin: 10px;
+  
+}
