@@ -105,6 +105,9 @@ img {
   text-decoration: none;
 }
 
+h2{
+  
+}
 
 /* Hero */
 
@@ -145,9 +148,35 @@ img {
   margin: 0 auto;
   justify-content: center;
   
+  
 }
 
 .card{
   margin: 10px;
+  border: 1px solid var(--border);
+  box-shadow: 0px 0px 10px var(--border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  height: 150px;
+
   
+
+}
+
+.card:hover {
+  box-shadow: inset 0px 0px 20px var(--border);
+}
+
+.card-text{
+  
+  margin: auto;
+
+  color: var(--text);
+ 
+}
+
+a{
+    text-decoration: none !important;
 }
