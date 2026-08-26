@@ -147,8 +147,6 @@ h2{
   width: 96%;
   margin: 0 auto;
   justify-content: center;
-  
-  
 }
 
 .card{
@@ -162,7 +160,6 @@ h2{
   height: 150px;
   width: 500px;
   font-size: 1.1rem;
-
 }
 
 .card:hover {
@@ -175,6 +172,17 @@ h2{
 
   color: var(--text);
  
+}
+
+
+.layers{
+  border: 2px solid var(--border);
+  margin: 5px;
+}
+
+.layer{
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 a{
