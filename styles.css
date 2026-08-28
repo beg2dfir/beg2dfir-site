@@ -195,6 +195,8 @@ iframe{
   font-weight: 900;
   border: 5px solid var(--border);
   padding: 5px;
+  max-width: 500px;
+  text-align: center;
 }
 
 
