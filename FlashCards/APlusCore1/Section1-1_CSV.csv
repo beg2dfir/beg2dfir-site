@@ -1,12 +1,12 @@
-Battery,Rechargeable power source for a portable device. 
-Keyboard,Input device used to type text and commands. 
-Keys,Individual buttons used for typing or commands. 
-Random Access Memory (RAM),Temporary storage for data currently in use. 
-Hard Disk Drive (HDD),Magnetic storage device with spinning platters. 
-Solid State Drive (SSD),Flash-based storage device with no moving parts. 
-Wireless Cards,Internal components that provide wireless network connectivity. 
-Biometrics,Authentication using unique physical characteristics. 
-Near Field Scanner Features,Short-range wireless communication used for contactless data exchange. 
-Wi-Fi Antenna Connector,Connection point between a wireless adapter and its antenna. 
-Camera / Webcam,Input device used to capture images or video. 
-Microphone,Input device used to capture sound. 
+Rechargeable power source for a portable device. ,Battery
+Input device used to type text and commands. ,Keyboard
+Individual buttons used for typing or commands. ,Keys
+Temporary storage for data currently in use. ,Random Access Memory (RAM)
+Magnetic storage device with spinning platters. ,Hard Disk Drive (HDD)
+Flash-based storage device with no moving parts. ,Solid State Drive (SSD)
+Internal components that provide wireless network connectivity. ,Wireless Cards
+Authentication using unique physical characteristics. ,Biometrics
+Short-range wireless communication used for contactless data exchange. ,Near Field Scanner
+Small internal component that sends and receives wireless network signals. ,Wi-Fi Antenna 
+Input device used to capture images or video. ,Camera / Webcam
+Input device used to capture sound. ,Microphone
