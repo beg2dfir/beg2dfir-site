@@ -185,6 +185,13 @@ h2{
   margin-left: 5px;
 }
 
+iframe{
+  background-color: var(--muted);
+  margin-left: 25px;
+  
+}
+
+
 a{
     text-decoration: none !important;
     color: var(--text);
