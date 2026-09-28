@@ -8,11 +8,11 @@ Built-in programmable chip used instead of removable carrier card.,eSIM
 Short-range radio technology used to connect nearby devices.,Bluetooth
 Process of establishing a trusted connection between two nearby devices.,Pairing
 Short numeric code used to verify access or approve a connection.,PIN
-Features that determine a device�s geographic position.,Location Services
+Features that determine a device’s geographic position.,Location Services
 Satellite-based system used to determine geographic position.,GPS
 Positioning method that estimates location using nearby carrier towers.,Cellular Location Services
 Centralized system for controlling and securing organization-owned or enrolled devices.,Mobile Device Management (MDM)
-Equipment issues and controlled by an organization for work use. ,Corporate Device
+Equipment issued and controlled by an organization for work use. ,Corporate Device
 Policy allowing personally owned equipment to access workspace resources.,Bring Your Own Device (BYOD)
 Applying required security and usage rules to manage equipment.,Policy Enforcement
 Work-related software distributed or controlled by an organization.,Corporate Applications
