@@ -1,0 +1,21 @@
+Longer-range Wi-Fi band with better wall penetration but more interference.,2.4 GHz
+Faster Wi-Fi band with less interference but shorter reach.,5 GHz
+Newest Wi-Fi band with more available spectrum but shorter reach.,6 GHz
+Specific slice of radio spectrum used for communication.,Wireless Channel
+Regional rules controlling which portions of radio spectrum devices may use.,Channel Regulations
+Choosing the least congested permitted slice of spectrum to reduce interference.,Channel Selection
+Amount of spectrum occupied by one transmission; wider values can provide greater speed.,Channel Width
+Range of radio spectrum grouped for a particular type of communication.,Frequency Band
+Short-range technology for connecting nearby devices and peripherals.,Bluetooth
+Family of specifications used for Wi-Fi local networking.,Institute of Electrical and Electronics Engineers (IEEE) 802.11
+Legacy generation using 5 GHz with speeds up to 54 Mbps.,802.11a
+Legacy generation using 2.4 GHz with speeds up to 11 Mbps.,802.11b
+Legacy generation using 2.4 GHz with speeds up to 54 Mbps.,802.11g
+Generation supporting both 2.4 and 5 GHz and multiple antennas.,802.11n / Wi-Fi 4
+High-speed generation operating on 5 GHz with multi-user improvements.,802.11ac / Wi-Fi 5
+High-efficiency generation designed to improve performance on busy networks.,802.11ax / Wi-Fi 6
+"Number of times a radio wave repeats each second, measured in hertz.",Frequency  
+Extension that adds access to the 6 GHz spectrum.,Wi-Fi 6E
+"Newest generation designed for greater throughput, wider transmissions, and lower latency.",802.11be / Wi-Fi 7
+Very short-range technology commonly used for tap-to-pay and quick pairing.,Near Field Communication (NFC)
+Technology that reads data from tagged objects without requiring physical contact.,Radio-Frequency Identification (RFID)
