@@ -1,0 +1,18 @@
+Network service that translates hostnames into IP addresses. Uses port 53.,Domain Name System (DNS) Server
+Network service that automatically assigns IP addresses and related settings. Uses UDP ports 67–68.,Dynamic Host Configuration Protocol (DHCP) Server
+Network resource that allows multiple users to access the same stored documents and folders.,File Share
+Computer or software that manages and queues jobs sent to shared output devices.,Print Server
+"Computer that sends, receives, and stores electronic messages for users.",Mail Server
+Standard for collecting and transmitting event logs from computers and networking equipment.,Syslog
+Computer that delivers websites and other content to browsers using HTTP or HTTPS.,Web Server
+"Security framework that verifies identities, controls permissions, and records user activity.","Authentication, Authorization, and Accounting (AAA)"
+"Computer that stores, organizes, and retrieves structured information for applications.",Database Server
+Communication standard that synchronizes device clocks. Uses UDP port 123.,Network Time Protocol (NTP)
+Email security system that filters unwanted or malicious messages before delivery.,Spam Gateway
+"Security appliance combining firewall, malware protection, and intrusion prevention functions.",Unified Threat Management (UTM)
+Device or software that distributes incoming requests across multiple machines to improve performance and availability.,Load Balancer
+Intermediary that forwards requests between clients and other network resources.,Proxy Server
+Older computing technology still in use despite newer alternatives being available.,Legacy System
+Specialized computer built into a larger device to perform specific tasks.,Embedded System
+Industrial computing platform used to monitor and operate machinery and infrastructure.,Supervisory Control and Data Acquisition (SCADA)
+Physical object equipped with electronics that exchange information over a network.,Internet of Things (IoT) Device
