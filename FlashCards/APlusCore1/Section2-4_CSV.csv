@@ -1,0 +1,17 @@
+Service that translates human-readable hostnames into numerical IP addresses.,Domain Name System (DNS)
+Entry that maps a hostname to an IPv4 value.,Address (A) Record
+Entry that maps a hostname to an IPv6 value.,AAAA Record
+Entry that creates an alias pointing one hostname to another.,Canonical Name (CNAME) Record
+Entry that identifies which servers receive email for a domain.,Mail Exchanger (MX) Record
+Entry storing character strings used for verification and security settings.,Text (TXT) Record
+Methods used to detect and filter unwanted or fraudulent email.,Spam Management
+Email security method using cryptographic signatures to verify the signer and detect tampering.,DomainKeys Identified Mail (DKIM)
+Email security method specifying which servers may send messages for a domain.,Sender Policy Framework (SPF)
+Email security policy that instructs recipients how to handle SPF or DKIM failures.,"Domain-based Message Authentication, Reporting, and Conformance (DMARC)"
+Network service that automatically assigns IP addresses and related settings to devices.,Dynamic Host Configuration Protocol (DHCP)
+Temporary assignment of an IP address to a device for a specified period.,DHCP Lease
+Setting that consistently assigns the same IP address to a specific device.,DHCP Reservation
+Defined pool of IP addresses and settings available for automatic assignment.,DHCP Scope
+IP address or range prevented from being automatically assigned to devices.,DHCP Exclusion
+Logical division of a switched infrastructure into separate broadcast domains.,Virtual Local Area Network (VLAN)
+Secure connection that commonly uses an encrypted tunnel across the internet.,Virtual Private Network (VPN)
